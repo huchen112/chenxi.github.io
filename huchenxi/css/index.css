@@ -1,0 +1,296 @@
+html{
+	width: 750px;
+	margin: 0 auto;
+}
+body{
+	background-image: linear-gradient(to bottom, #fff, #efefef);
+	width: 700px;
+	
+}
+.search{
+	width: 750px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 25px 0;
+	position: sticky;
+	left: 0;
+	top: 0;
+}
+.search_a{
+	display: block;
+	box-sizing: border-box;
+	width: 700px;
+	height: 60px;
+	margin: 0 auto;
+	border: 2px solid #098af6;
+	border-radius: 30px;
+	line-height: 56px;
+	background-image: url(../images/icon_search.svg);
+	background-repeat: no-repeat;
+	background-position: 25px center;
+	background-size: 35px 35px;
+	text-indent: 70px;
+	font-size: 28px;
+	color: #999;
+}
+
+.nav{
+	background-color: antiquewhite;
+	width: 700px;
+	height: 130px;
+	margin: 0 auto;
+	display: flex;
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.nav_a{
+	background-color: lightblue;
+	display: block;
+	width: 138px;
+	text-align: center;
+	background-image: linear-gradient(to bottom,#fa5956,#fb8650);
+}
+
+.nav_img{
+	width: 56px;
+	height: 56px;
+	margin-top: 10px;
+}
+.nav_div2{
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+
+/* 推荐 */
+.tuijian{
+	width: 700px;
+	margin: 15px auto;
+	/* 弹性水平布局 */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.tuijian_tjzb{
+	background-color: #fff;
+	width: 310px;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.tuijian_jpf{
+	background-color: #fff;
+	width: 310px;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.tuijian_tjzb_top{
+	/* display: block; */
+	/* 弹性容器  必然是块状特性 */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	
+	margin-bottom: 15px;
+}
+
+.tuijian_tjzb_img{
+	width: 146px;
+	height: 40px;
+}
+.tuijian_tjzb_txt{
+	height: 36px;
+	line-height: 36px;
+	padding: 2px 8px;
+	border-radius: 4px;
+	background-color: #ffebe3;
+	color: #FF4607;
+}
+
+.tuijian_tjzb_bottom{
+	display: block;
+}
+.tuijian_tjzb_fengmian{
+	display: block;
+	width: 310px;
+	height: 168px;
+	border-radius: 20px;
+	margin-bottom: 15px;
+}
+.tuijian_tjzb_jiage{
+	color: #f60;
+	font-size: 32px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+}
+.tuijian_tjzb_huobi{
+	font-size: 22px;
+}
+
+
+.tuijian_jpf_top{
+	/* display: block; */
+	/* 弹性容器  必然是块状特性 */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	
+	margin-bottom: 15px;
+}
+.tuijian_jpf_img{
+	width: 146px;
+	height: 40px;
+}
+.tuijian_jpf_txt{
+	height: 36px;
+	line-height: 36px;
+	padding: 2px 8px;
+	border-radius: 4px;
+	background-color: #fdefd2;
+	color: #ae6e15;
+}
+
+.tuijian_jpf_bottom{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.tuijian_jpf_left{
+	width: 150px;
+}
+.tuijian_jpf_right{
+	width: 150px;
+}
+.tuijian_jpf_fengmian{
+	width: 300px;
+	height: 168px;
+	border-radius: 20px;
+	margin-bottom: 15px;
+}
+.tuijian_jpf_title{
+	font-size: 24px;
+	line-height: 40px;
+	height: 40px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.tuijian_jpf_fengmian::after{
+	content: "123";
+}
+
+/* 横幅广告 */
+.ad{
+	display: block;
+	width: 700px;
+	height: 505px;
+	margin: 20px auto;
+	background-image: url(../images/liuxiao.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+/* footer */
+.footer{
+	width: 700px;
+	margin: 0 auto;
+	margin-bottom: 180px;
+}
+.footer_div1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin: 20px 0;
+}
+.footer_a1{
+	display: block;
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border: 2px solid #999;
+	border-radius: 10px;
+	font-size: 24px;
+}
+
+
+.footer_div2{
+	text-align: center;
+	margin: 20px 0;
+}
+.footer_a2{
+	font-size: 22px;
+	color: #666;
+	margin: 0 3em;
+}
+
+.footer_div3{
+	font-size: 20px;
+	color: #098af6;
+	text-align: center;
+	margin: 20px 0;
+}
+
+/* menu菜单 */
+.menu{
+	background-color: #fff;
+	width: 750px;
+	height: 100px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	box-shadow: #666 0 -2px 2px;
+}
+.menu_a{
+	width: 750px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.menu_img{
+	width: 64px;
+	height: 64px;
+	margin: 0 auto;
+	background-image: url(../images/tabbar.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.menu_img2{
+	background-position: 0 -64px;
+}
+.menu_img3{
+	background-position: 0 -128px;
+}
+.menu_img4{
+	background-position: 0 -192px;
+}
+
+.menu_txt{
+	font-size: 24px;
+	color: #333;
+}
+
